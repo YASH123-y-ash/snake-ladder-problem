@@ -38,10 +38,10 @@ public class Snake_Ladder_Problem {
 			//using switch case to check player position
 			switch(playerStatus)
 			{
-			case 0:
+			case NO_PLAY:
 				playerPosition =playerPosition;
 				break;
-			case 1:
+			case LADDER:
 				playerPosition +=dieValue;
 				break;
 			default:
@@ -56,6 +56,13 @@ public class Snake_Ladder_Problem {
 			{
 				playerPosition =0;
 				System.out.println("player position is "+playerPosition);
+			}
+
+			//checking if player exceeds its position than 100 
+			if(playerPosition > 100)
+			{
+				playerPosition -=dieValue;
+				System.out.println("player goes to its previous position "+playerPosition);
 			}
 
 			//checking if player position reaches 100
