@@ -3,9 +3,8 @@ package Snake_ladder;
 public class Snake_Ladder_Problem {
 
 	public static void main(String[] args) {
-		final int START=0;
-
-		System.out.println("starting position of player is  " + START);
-
+		
+		int dieValue=(int) ((Math.random() * 100) % 6)+1;
+		System.out.println("player gets "+dieValue);
 	}
 }
