@@ -1,4 +1,4 @@
-package Snake_ladder;
+package com.snakeladder;
 
 public class SnakeLadderProblem {
 
