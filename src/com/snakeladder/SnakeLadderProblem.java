@@ -1,6 +1,6 @@
-package Snake_ladder;
+package com.snakeladder;
 
-public class Snake_Ladder_Problem {
+public class SnakeLadderProblem {
 
 	public static void main(String[] args) {
 
@@ -46,6 +46,6 @@ public class Snake_Ladder_Problem {
 			break;
 		}
 		System.out.println("player position is "+playerPosition);
-
 	}
+
 }
