@@ -1,11 +1,10 @@
-package Snake_ladder;
+package com.snakeladder;
 
-public class Snake_Ladder_Problem {
+public class SnakeLadderProblem {
 
 	public static void main(String[] args) {
 
 		//variables
-		final int START=0;
 		final int NO_PLAY=0;
 		final int LADDER=1;
 		final int SNAKE=2;
