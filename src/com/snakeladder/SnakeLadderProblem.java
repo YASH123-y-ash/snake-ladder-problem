@@ -1,11 +1,9 @@
-package Snake_ladder;
+package com.snakeladder;
 
-public class Snake_Ladder_Problem {
-
+public class SnakeLadderProblem {
 	public static void main(String[] args) {
 
 		//variables
-		final int START=0;
 		final int NO_PLAY=0;
 		final int LADDER=1;
 		final int SNAKE=2;
@@ -38,10 +36,10 @@ public class Snake_Ladder_Problem {
 			//using switch case to check player position
 			switch(playerStatus)
 			{
-			case 0:
+			case NO_PLAY:
 				playerPosition =playerPosition;
 				break;
-			case 1:
+			case LADDER:
 				playerPosition +=dieValue;
 				break;
 			default:
